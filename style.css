@@ -26,9 +26,19 @@ body {
   background-color: #1992d4;
 }
 #dashboard {
+  display: flex;
+  align-items: start;
+}
+#dashboardText {
   font-size: 35px;
   font-weight: bolder;
   padding-bottom: 40px;
+  padding-left: 20px;
+}
+#dashboardSvg {
+  height: 40px;
+  color: white;
+  padding-top: 2px;
 }
 
 .sideItems {
@@ -49,12 +59,23 @@ body {
   padding-left: 20px;
 }
 
+.searchBar {
+  display: flex;
+  width: 50vh;
+  align-items: center;
+}
+
 #search {
   height: 30px;
   border-radius: 20px;
-  width: 50%;
   background-color: rgb(235, 235, 235);
   border: none;
+  width: 150%;
+}
+
+#magnify {
+  height: 55px;
+  padding-right: 20px;
 }
 
 #navBar {
@@ -70,6 +91,10 @@ body {
 }
 .rightSide * {
   margin: 20px;
+}
+
+#bell {
+  height: 30px;
 }
 
 .leftSide {
@@ -112,6 +137,7 @@ body {
   font-size: 30px;
   font-weight: bold;
   padding-bottom: 10px;
+  /* margin-left: 30px; */
 }
 
 #projects {
@@ -181,6 +207,7 @@ button {
 .announcement {
   border-bottom: 1px solid black;
   padding-bottom: none;
+  /* margi */
 }
 .annoName {
   font-size: 20px;
@@ -189,4 +216,17 @@ button {
 
 .greetings p {
   font-size: 20px;
+}
+.dashboardSvg {
+  height: 40px;
+}
+
+.sideItems {
+  display: flex;
+  align-items: center;
+}
+
+.sideIcon {
+  height: 30px;
+  padding-right: 15px;
 }
